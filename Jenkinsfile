@@ -19,7 +19,7 @@ pipeline {
             authentication: 'servicenow-creds',
             requestBody: '''
             {
-              "short_description": "Deployed from Jenkins",
+              "short_description": "Deployed from Jenkins by om raghuwanshi",
               "category": "Software",
               "state": "New"
             }
