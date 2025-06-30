@@ -13,7 +13,7 @@ pipeline {
         script {
           echo "Calling ServiceNow API..."
           def response = httpRequest(
-            url: 'https://dev300396.service-now.com/api/now/table/change_request',
+            #url: 'https://dev300396.service-now.com/api/now/table/change_request',
             httpMode: 'POST',
             contentType: 'APPLICATION_JSON',
             authentication: 'servicenow-creds',
